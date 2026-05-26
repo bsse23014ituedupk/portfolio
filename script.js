@@ -367,26 +367,11 @@ if (footerText) {
 }
 
 // ============================
-// LINK INTEGRATION (Replace # with actual links)
+// LINK INTEGRATION
 // ============================
 
-// Replace these with actual social media and portfolio links
-document.addEventListener('DOMContentLoaded', () => {
-    const socialLinks = document.querySelectorAll('.social-icon');
-    
-    socialLinks.forEach(link => {
-        const title = link.getAttribute('title');
-        
-        // Update href based on the social platform
-        if (title === 'LinkedIn') {
-            link.href = 'https://linkedin.com/in/khansa-rasheed';
-        } else if (title === 'GitHub') {
-            link.href = 'https://github.com/khansa-rasheed';
-        } else if (title === 'Portfolio') {
-            link.href = '#home';
-        }
-    });
-});
+// Social links are configured directly in HTML
+// No additional integration needed
 
 // ============================
 // ACTIVE NAVIGATION HIGHLIGHT
