@@ -1,0 +1,61 @@
+Act as a Senior Creative Front-End Developer.use folder structure organize  I need you to write the complete, production-ready HTML, CSS, and Vanilla JavaScript code for a modern, highly interactive, 3d effects,use icons that related 
+  , and professional single-page portfolio website. 
+
+The portfolio is for "Khansa Rasheed", a Biomedical Engineering student. The design must feature attractive 3D interactive elements, smooth animations, and a sleek, modern aesthetic. 
+
+### 1. Design & Aesthetic Requirements
+* **Theme:** Modern, high-tech, and professional. Use a dark mode aesthetic with glassmorphism effects.
+* **Color Palette:** Match her professional CV.
+    * Background/Base: Dark Charcoal (`#1A1F24`) and deep muted blues (`#12161A`).
+    * Primary Accent: Emerald Green (`#0A7050`) for buttons, active states, and glowing effects.
+    * Secondary Accent: Muted Gold (`#D4AF37`) for highlights, stars, or special badges.
+    * Text: Off-white (`#F5F7FA`) for headings, and light gray (`#D1D6DC`) for paragraphs.
+* **3D & Animation Effects:**
+    * Use CSS 3D transforms (`transform: perspective(1000px) rotateX(...) rotateY(...)`) for project cards to create a "tilt" effect on hover.
+    * Implement floating animations (`@keyframes`) for background geometric shapes or medical/engineering SVG icons (like microchips, ECG waves).
+    * Use smooth scrolling for navigation.
+    * Add a subtle parallax effect on the background while scrolling.
+
+### 2. Website Structure & Content Integration
+Please create the following sections using semantic HTML5:
+
+**A. Header / Navigation (Sticky & Glassmorphism)**
+* Logo: "KR" with a glowing Emerald Green border.
+* Links: Home, About, Skills, Projects, Contact.
+
+**B. Hero Section (First Impression)**
+* Large, bold headline: "Hi, I'm Khansa Rasheed"
+* Sub-headline (typing effect using JS): "Biomedical Engineering Intern | Embedded Systems | Bio-Signal Processing"
+* Call to Action (CTA) Buttons: "View Projects" (solid Emerald) and "Download CV" (outlined Gold).
+* Visual: A floating 3D CSS element or a high-tech glowing orb animation next to the text.
+
+**C. About Me Section**
+* A glassmorphic card containing her objective: "A dedicated Biomedical Engineering student with hands-on experience in embedded systems, analog circuit design, and bio-signal acquisition. Passionate about bridging cutting-edge engineering with life-saving healthcare technology."
+* Include her education details in a sleek timeline format:
+    * BS Biomedical Engineering - UET Lahore, Narowal Campus (2024-2028)
+    * FSc Pre-Medical - Punjab College Bhera (Marks: 1044/1200)
+    * Matric - Govt. High School Bhera (Marks: 1011/1100)
+
+**D. Core Skills (3D Floating Elements)**
+* Create a visually striking grid or orbiting 3D layout for her skills. 
+* Skills to include: Arduino / AVR Microcontrollers, Analog & Digital Circuit Design, Bio-Signal Processing, Proteus, LTSPICE, Embedded C Programming, PCB & Sensor Integration.
+* Add hover effects that make the skill badges pop out in 3D with a glowing Emerald shadow.
+
+**E. Engineering Projects (3D Tilt Cards)**
+* Create a CSS Grid layout for project cards. Integrate JavaScript (or CSS-only 3D transforms) so the cards tilt based on mouse movement.
+* **Card 1:** Arduino-Based 4-Way Traffic Signal Control System (Mention: Adaptive timing, embedded C).
+* **Card 2:** Temperature Sensor Using Differential Amplifier (Include a "Watch Demo" YouTube button).
+* **Card 3:** Intelligent ICU Patient Monitoring System (Mention: Logic Gates, NAND/NOR/AND).
+* **Card 4:** ECG Signal Acquisition and Conditioning (Mention: Instrumentation amp, 60Hz notch filter).
+
+**F. Contact Section & Footer**
+* A sleek contact form (Name, Email, Message) with floating labels.
+* Contact info cards containing her Phone (+92 315 7121429), Email (khansarasheed40540@gmail.com), and Location (Bhera, Punjab).
+* Social links with hover scaling effects (LinkedIn, GitHub/Portfolio).
+
+### 3. Technical Constraints
+* **Single File vs Multiple Files:** Provide the code structured clearly (you can output it as separate `index.html`, `style.css`, and `script.js` blocks).
+* **Responsiveness:** Use CSS Grid and Flexbox to ensure it looks perfect on mobile, tablet, and desktop.
+* **No External Heavy Libraries:** Do not use React, Vue, or heavy frameworks. Use Vanilla JS and raw CSS to keep it lightweight. You may use FontAwesome via CDN for icons and Google Fonts (e.g., 'Inter' or 'Poppins').
+
+Please generate the complete, copy-pasteable code now.
